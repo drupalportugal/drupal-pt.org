@@ -120,9 +120,7 @@
     "patches": {
       "drupal/core": {
           "[2957368] - Call to a member function transformDimensions()":
-          "https://www.drupal.org/files/issues/2018-04-04/2957368_0.patch",
-          "2985882 - Workaround for 'Call to a member function getLabel()'":
-          "https://www.drupal.org/files/issues/2020-04-08/2985882-field-85.patch"
+          "https://www.drupal.org/files/issues/2023-06-26/drupal-2957368-45.patch"
       },
       "drupal/recaptcha": {
           "[3035883] - CAPTCHA validation error: unknown CAPTCHA session ID":
