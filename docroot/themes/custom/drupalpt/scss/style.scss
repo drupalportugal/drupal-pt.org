@@ -1,4 +1,4 @@
-/* 
+/*
 Theme Name: Drupalpt Bootstrap 4 Sass
 Description: Drupalpt Bootstrap 4 with Sass
 */
@@ -13,3 +13,5 @@ Description: Drupalpt Bootstrap 4 with Sass
 body {
     background: $white;
 }
+
+@import "./components/events";

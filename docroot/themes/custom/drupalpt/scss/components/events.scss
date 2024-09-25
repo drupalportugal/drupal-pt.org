@@ -1,0 +1,44 @@
+#main #block-drupalpt-content{
+  .view-id-events{
+    h2 a {
+      font-weight: 200;
+      font-size: 4rem;
+      color: #0079C0;
+    }
+    .view-content{
+      flex-direction: column;
+      .views-row{
+        border-bottom: 1px solid #dee2e6;
+        .node__content{
+          padding-bottom: 1rem;
+        }
+        .field--name-field-image,
+        .field--name-field-date,
+        .field--name-field-local{
+          display: inline-block;
+          margin-right: 1rem;
+          margin-top: 2rem;
+        }
+
+      }
+      .nav{
+        justify-content: flex-end;
+        margin: 1rem 0;
+        .node-readmore{
+          border: 2px solid #00F0F3;
+          border-radius: 5px;
+        }
+      }
+    }
+    .field--type-datetime{
+      color: #00F0F3;
+    }
+    .pagination{
+      justify-content: center;
+      margin: 2rem 0;
+    }
+    .node--view-mode-teaser{
+      border-bottom: unset;
+    }
+  }
+}

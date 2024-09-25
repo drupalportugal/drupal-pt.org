@@ -65,3 +65,4 @@ Thumbs.db
 
 /.editorconfig
 /.gitattributes
+docroot/themes/custom/drupalpt/node_modules/

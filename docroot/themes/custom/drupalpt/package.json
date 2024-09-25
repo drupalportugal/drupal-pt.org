@@ -4,7 +4,9 @@
   "description": "Barrio SASS implementation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "sass ./scss/style.scss ./css/style.css",
+    "production": "sass --style=compressed ./scss/style.scss ./css/style.min.css",
+    "watch": "sass --watch ./scss/style.scss ./css/style.css"
   },
   "keywords": [
     "SASS",
@@ -17,6 +19,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.3"
+    "popper.js": "^1.14.3",
+    "sass": "^1.55.0"
   }
 }
